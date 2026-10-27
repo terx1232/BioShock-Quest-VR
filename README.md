@@ -24,7 +24,7 @@ No separate Python, Java or Android SDK is needed. If USB is missing, rescan or 
 
 ## Status
 
-Release **90** has an English installer and the weapon/plasmid reticles from gameplay build 88. Tested during development on Quest 2; Quest 3/3S hardware testing is pending. Steady 72 FPS is not guaranteed. Pico is not included.
+English installer with weapon and plasmid reticles. Tested during development on Quest 2; Quest 3/3S hardware testing is pending. Steady 72 FPS is not guaranteed. Pico is not included.
 
 ## How it works
 

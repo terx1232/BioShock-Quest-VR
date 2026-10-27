@@ -37,6 +37,6 @@ python scripts/distribution/test_installer.py
 python scripts/distribution/pack.py
 ```
 
-The result is `dist/installer/BioShockVR-Setup.exe`. The packer embeds the APK, DLL, profiles, source archive, ADB, Steamless, driver and notices; it rejects game EXEs and keystore files in the payload. Release 90 passed 7 terminal-flow and 8 installer-transaction tests; its embedded DLL/profile match the reticles accepted in headset build 88.
+The result is `dist/installer/BioShockVR-Setup.exe`. The packer embeds the APK, DLL, profiles, source archive, ADB, Steamless, driver and notices; it rejects game EXEs and keystore files in the payload. The installer passed 7 terminal-flow and 8 transaction tests; its embedded DLL/profile match the reticles accepted during headset testing.
 
 Developer diagnostics remain source-only and are excluded or disabled in production builds. Some historic developer tests refer to local snapshots that are not included here; use the two installer tests above on a fresh checkout. Use the packaged installer for normal headset installation.
