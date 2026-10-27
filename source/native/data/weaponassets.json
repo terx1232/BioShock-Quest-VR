@@ -1,0 +1,323 @@
+{
+  "packageSha256": "84b9f3cc788d510c8d25ab66c081aed6b231dec63431aac51fb749f77c1367c9",
+  "records": [
+    {
+      "family": "Wrench",
+      "mesh": "WP_WrenchMesh",
+      "vertices": 1953,
+      "primitives": 1686
+    },
+    {
+      "family": "Pistol",
+      "mesh": "WP_PistolMesh",
+      "vertices": 312,
+      "primitives": 269
+    },
+    {
+      "family": "Pistol",
+      "mesh": "WP_PistolMesh",
+      "vertices": 889,
+      "primitives": 916
+    },
+    {
+      "family": "Pistol",
+      "mesh": "WP_PistolMesh",
+      "vertices": 1687,
+      "primitives": 1803
+    },
+    {
+      "family": "Pistol",
+      "mesh": "WP_PistolMesh",
+      "vertices": 2361,
+      "primitives": 2824
+    },
+    {
+      "family": "Pistol",
+      "mesh": "PI_UpgradeBalt",
+      "vertices": 381,
+      "primitives": 429
+    },
+    {
+      "family": "Pistol",
+      "mesh": "PI_UpgradeA",
+      "vertices": 1103,
+      "primitives": 1300
+    },
+    {
+      "family": "Pistol",
+      "mesh": "PI_UpgradeB",
+      "vertices": 582,
+      "primitives": 782
+    },
+    {
+      "family": "TommyGun",
+      "mesh": "TommyGunMESH",
+      "vertices": 276,
+      "primitives": 211
+    },
+    {
+      "family": "TommyGun",
+      "mesh": "TommyGunMESH",
+      "vertices": 832,
+      "primitives": 739
+    },
+    {
+      "family": "TommyGun",
+      "mesh": "TommyGunMESH",
+      "vertices": 1391,
+      "primitives": 1535
+    },
+    {
+      "family": "TommyGun",
+      "mesh": "TommyGunMESH",
+      "vertices": 1726,
+      "primitives": 2216
+    },
+    {
+      "family": "TommyGun",
+      "mesh": "TG_upgradeA",
+      "vertices": 1125,
+      "primitives": 1550
+    },
+    {
+      "family": "TommyGun",
+      "mesh": "TG_upgradeB",
+      "vertices": 1187,
+      "primitives": 1204
+    },
+    {
+      "family": "Shotgun",
+      "mesh": "WP_ShotgunMesh",
+      "vertices": 158,
+      "primitives": 206
+    },
+    {
+      "family": "Shotgun",
+      "mesh": "WP_ShotgunMesh",
+      "vertices": 586,
+      "primitives": 686
+    },
+    {
+      "family": "Shotgun",
+      "mesh": "WP_ShotgunMesh",
+      "vertices": 1117,
+      "primitives": 1415
+    },
+    {
+      "family": "Shotgun",
+      "mesh": "WP_ShotgunMesh",
+      "vertices": 1466,
+      "primitives": 2002
+    },
+    {
+      "family": "Shotgun",
+      "mesh": "SG_UpgradeA",
+      "vertices": 2208,
+      "primitives": 3055
+    },
+    {
+      "family": "Shotgun",
+      "mesh": "SG_UpgradeB",
+      "vertices": 92,
+      "primitives": 74
+    },
+    {
+      "family": "Shotgun",
+      "mesh": "SG_UpgradeB",
+      "vertices": 350,
+      "primitives": 417
+    },
+    {
+      "family": "Shotgun",
+      "mesh": "SG_UpgradeB",
+      "vertices": 748,
+      "primitives": 830
+    },
+    {
+      "family": "Shotgun",
+      "mesh": "SG_UpgradeB",
+      "vertices": 990,
+      "primitives": 1228
+    },
+    {
+      "family": "ChemicalThrower",
+      "mesh": "WP_ChemicalThrowerMesh",
+      "vertices": 448,
+      "primitives": 414
+    },
+    {
+      "family": "ChemicalThrower",
+      "mesh": "WP_ChemicalThrowerMesh",
+      "vertices": 1494,
+      "primitives": 1549
+    },
+    {
+      "family": "ChemicalThrower",
+      "mesh": "WP_ChemicalThrowerMesh",
+      "vertices": 2611,
+      "primitives": 3188
+    },
+    {
+      "family": "ChemicalThrower",
+      "mesh": "WP_ChemicalThrowerMesh",
+      "vertices": 3437,
+      "primitives": 4588
+    },
+    {
+      "family": "ChemicalThrower",
+      "mesh": "CT_UpgradeA",
+      "vertices": 695,
+      "primitives": 860
+    },
+    {
+      "family": "ChemicalThrower",
+      "mesh": "CT_UpgradeB",
+      "vertices": 636,
+      "primitives": 708
+    },
+    {
+      "family": "Crossbow",
+      "mesh": "WP_CrossbowMesh",
+      "vertices": 428,
+      "primitives": 384
+    },
+    {
+      "family": "Crossbow",
+      "mesh": "WP_CrossbowMesh",
+      "vertices": 1379,
+      "primitives": 1403
+    },
+    {
+      "family": "Crossbow",
+      "mesh": "WP_CrossbowMesh",
+      "vertices": 2747,
+      "primitives": 2854
+    },
+    {
+      "family": "Crossbow",
+      "mesh": "WP_CrossbowMesh",
+      "vertices": 3587,
+      "primitives": 4242
+    },
+    {
+      "family": "Crossbow",
+      "mesh": "XB_UpgradeA",
+      "vertices": 395,
+      "primitives": 468
+    },
+    {
+      "family": "Crossbow",
+      "mesh": "XB_UpgradeB_Mesh",
+      "vertices": 98,
+      "primitives": 61
+    },
+    {
+      "family": "Crossbow",
+      "mesh": "XB_UpgradeB_Mesh",
+      "vertices": 326,
+      "primitives": 260
+    },
+    {
+      "family": "Crossbow",
+      "mesh": "XB_UpgradeB_Mesh",
+      "vertices": 610,
+      "primitives": 545
+    },
+    {
+      "family": "Crossbow",
+      "mesh": "XB_UpgradeB_Mesh",
+      "vertices": 782,
+      "primitives": 818
+    },
+    {
+      "family": "GrenadeLauncher",
+      "mesh": "WP_GrenadeLauncherMesh",
+      "vertices": 362,
+      "primitives": 295
+    },
+    {
+      "family": "GrenadeLauncher",
+      "mesh": "WP_GrenadeLauncherMesh",
+      "vertices": 1075,
+      "primitives": 1035
+    },
+    {
+      "family": "GrenadeLauncher",
+      "mesh": "WP_GrenadeLauncherMesh",
+      "vertices": 1980,
+      "primitives": 2147
+    },
+    {
+      "family": "GrenadeLauncher",
+      "mesh": "WP_GrenadeLauncherMesh",
+      "vertices": 2583,
+      "primitives": 3088
+    },
+    {
+      "family": "GrenadeLauncher",
+      "mesh": "GL_UpgradeA",
+      "vertices": 924,
+      "primitives": 16
+    },
+    {
+      "family": "GrenadeLauncher",
+      "mesh": "GL_UpgradeA",
+      "vertices": 924,
+      "primitives": 1001
+    },
+    {
+      "family": "GrenadeLauncher",
+      "mesh": "GL_UpgradeB",
+      "vertices": 619,
+      "primitives": 510
+    },
+    {
+      "family": "PlasmidEquip",
+      "mesh": "PlasmidEquipMESH",
+      "vertices": 192,
+      "primitives": 52
+    },
+    {
+      "family": "PlasmidEquip",
+      "mesh": "PlasmidEquipMESH",
+      "vertices": 192,
+      "primitives": 124
+    },
+    {
+      "family": "PlasmidEquip",
+      "mesh": "PlasmidEquipMESH",
+      "vertices": 609,
+      "primitives": 136
+    },
+    {
+      "family": "PlasmidEquip",
+      "mesh": "PlasmidEquipMESH",
+      "vertices": 609,
+      "primitives": 486
+    },
+    {
+      "family": "PlasmidEquip",
+      "mesh": "PlasmidEquipMESH",
+      "vertices": 1149,
+      "primitives": 236
+    },
+    {
+      "family": "PlasmidEquip",
+      "mesh": "PlasmidEquipMESH",
+      "vertices": 1149,
+      "primitives": 1099
+    },
+    {
+      "family": "PlasmidEquip",
+      "mesh": "PlasmidEquipMESH",
+      "vertices": 1553,
+      "primitives": 296
+    },
+    {
+      "family": "PlasmidEquip",
+      "mesh": "PlasmidEquipMESH",
+      "vertices": 1553,
+      "primitives": 1610
+    }
+  ]
+}

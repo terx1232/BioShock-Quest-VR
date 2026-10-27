@@ -1,0 +1,7 @@
+struct GLGuard {
+    GLint draw,read,prog,array,buffer,viewport[4],activeTexture,texture0,sampler0; GLfloat clear[4];
+    GLboolean blend,scissor,depth,cull,mask[4];
+    GLGuard(){glGetIntegerv(GL_DRAW_FRAMEBUFFER_BINDING,&draw);glGetIntegerv(GL_READ_FRAMEBUFFER_BINDING,&read);glGetIntegerv(GL_CURRENT_PROGRAM,&prog);glGetIntegerv(GL_VERTEX_ARRAY_BINDING,&array);glGetIntegerv(GL_ARRAY_BUFFER_BINDING,&buffer);glGetIntegerv(GL_VIEWPORT,viewport);glGetFloatv(GL_COLOR_CLEAR_VALUE,clear);glGetBooleanv(GL_COLOR_WRITEMASK,mask);blend=glIsEnabled(GL_BLEND);scissor=glIsEnabled(GL_SCISSOR_TEST);depth=glIsEnabled(GL_DEPTH_TEST);cull=glIsEnabled(GL_CULL_FACE);glGetIntegerv(GL_ACTIVE_TEXTURE,&activeTexture);glActiveTexture(GL_TEXTURE0);glGetIntegerv(GL_TEXTURE_BINDING_2D,&texture0);glGetIntegerv(GL_SAMPLER_BINDING,&sampler0);glActiveTexture(activeTexture);}
+    void flag(GLenum flag,GLboolean value){if(value)glEnable(flag);else glDisable(flag);}
+    ~GLGuard(){glBindFramebuffer(GL_DRAW_FRAMEBUFFER,draw);glBindFramebuffer(GL_READ_FRAMEBUFFER,read);glUseProgram(prog);glBindVertexArray(array);glBindBuffer(GL_ARRAY_BUFFER,buffer);glViewport(viewport[0],viewport[1],viewport[2],viewport[3]);glClearColor(clear[0],clear[1],clear[2],clear[3]);glColorMask(mask[0],mask[1],mask[2],mask[3]);flag(GL_BLEND,blend);flag(GL_SCISSOR_TEST,scissor);flag(GL_DEPTH_TEST,depth);flag(GL_CULL_FACE,cull);glActiveTexture(GL_TEXTURE0);glBindTexture(GL_TEXTURE_2D,texture0);glBindSampler(0,sampler0);glActiveTexture(activeTexture);}
+};
